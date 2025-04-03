@@ -18,26 +18,24 @@ if(isset($_GET['option'])){
     }
 }
 
+response($data);
 
 function define_response(&$data, $value){
     $data['status'] = ' SUCCESS';
     $data['data'] = $value;
 }
 
-date_default_timezone_get('America/Sao_Paulo');
 function data_time(&$data, $dataHoraAtual){
-    $data['time'] = date('d-m-Y H:i:s');
+    $data['status'] = 'DATA E HORA API';
     $data['data'] = $dataHoraAtual;
-
-    echo 'Data e hora atual do servidor: ' . $dataHoraAtual;
+    date_default_timezone_set('America/Maceio');
+    $data['time'] = date("d-m-Y H:i:s");
 }
 
-response($data);
 function response($data_response){
     header("Content-Type:application/json");
     echo json_encode($data_response);
 }
-
 
 
 ?>
