@@ -1,7 +1,7 @@
 <?php
 define ('API_BASE', 'http://localhost/api-grupo/api/index.php?option=' );
 
-    echo'<p>API GRUPO</p>';
+    echo'<p>API Aleatory</p>';
 
     for($i = 0; $i < 10; $i++)
     {
