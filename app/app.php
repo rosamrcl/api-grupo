@@ -6,7 +6,7 @@ define ('API_BASE', 'http://localhost/api-grupo/api/index.php?option=' );
     for($i = 0; $i < 10; $i++)
     {
 
-        $result = api_request('random&min=aaa&max=150');
+        $result = api_request('random&min=100&max=1000');
 
         if($result ['status'] == 'ERROR')
         {
