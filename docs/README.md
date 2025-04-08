@@ -13,7 +13,7 @@
 # [João Danilo](https://github.com/Joaodanilo2005)
 # [Rosa](https://github.com/rosamrcl)
 
-
+[Apresentação Canva](https://www.canva.com/design/DAGj-r1S2FE/9CTtpT6KyzoyoAYCx-E70A/edit?utm_content=DAGj-r1S2FE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -104,9 +104,7 @@
 # Define o cabeçalho Content-Type como application/json para informar ao cliente que a resposta é JSON.
 # Converte o array $data_response em uma string JSON usando json_encode() e a envia para o cliente usando echo.
 
- 
 
-  
 # APP
 
 # 1. Definição da Constante API_BASE:
