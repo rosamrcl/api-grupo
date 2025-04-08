@@ -22,7 +22,7 @@
 # Nosso projeto segue uma organização simples para facilitar o desenvolvimento:
 # Api: index.php          
 # App: app.php. output       
-# README.md     
+   
 
 
 
@@ -127,6 +127,13 @@
 
 # O código faz 10 requisições a uma API para obter valores aleatórios. Para cada requisição, ele verifica se houve um erro e, se não houver, exibe o valor aleatório. No final, ele exibe a mensagem "Finalizado". A função api_request() encapsula a lógica para fazer a requisição cURL e decodificar a resposta JSON.
 
+
+# Como Usar a API:
+# Para usar esta API, você faria requisições HTTP GET com o parâmetro option definido. Por exemplo:
+# http://sua-api.com/seu-script.php?option=status para obter o status da API.
+# http://sua-api.com/seu-script.php?option=time para obter a data e hora atual.
+# http://sua-api.com/seu-script.php?option=number para obter um número aleatório.
+# http://sua-api.com/seu-script.php?option=number&num1=10&num2=100 para obter um número aleatório entre 10 e 100.
 
 
  
