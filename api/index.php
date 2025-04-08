@@ -23,8 +23,8 @@ if(isset($_GET['option'])){
             break;
 
         case 'number':
-                random_number($data, 0, 2000);
-                break;
+            random_number($data, 0, 2000);
+            break;
     }
 }
 
